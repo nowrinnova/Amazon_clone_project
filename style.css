@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: rgb(79, 75, 75);
+    ;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%;
+}
