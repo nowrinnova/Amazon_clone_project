@@ -1,14 +1,24 @@
-body {
+/* body {
     background-color: bisque;
-}
+} */
 
 h1 {
-    color: rgb(79, 75, 75);
-    ;
+    color: black;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: red underline;
+    font-weight: 900;
+    font-family: ui-serif;
+    height: max-content;
 }
 
 img {
     border-radius: 50%;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+}
+
+p {
+    text-align: center;
 }
