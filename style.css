@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* body {
     background-color: bisque;
 } */
@@ -9,9 +14,12 @@ h1 {
     font-weight: 900;
     font-family: ui-serif;
     height: max-content;
+
 }
 
 img {
+    height: 170px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -21,4 +29,20 @@ h2 {
 
 p {
     text-align: center;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+#portfolio {
+    height: 100px;
+    font-size: 60px;
+    padding-top: 15px;
+}
+
+#navbar {
+    background-color: black;
+}
+
+button {
+    color: #f08804;
 }
