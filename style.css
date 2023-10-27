@@ -39,7 +39,7 @@ p {
 }
 
 #navbar {
-    background-color: black;
+    background-color: #03034e;
     height: 60px;
 }
 
@@ -47,6 +47,7 @@ button {
     color: #f08804;
     width: 70px;
     height: 25px;
+    margin-top: 20px;
 }
 
 input {
@@ -67,4 +68,16 @@ a {
 
 .picture h2 {
     text-align: center;
+}
+
+
+
+
+
+.footer a {
+    font-size: 50px;
+    color: #594F3B;
+    font-style: italic;
+    margin-left: 30px;
+
 }
