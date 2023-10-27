@@ -10,7 +10,6 @@
 h1 {
     color: black;
     text-align: center;
-    text-decoration: red underline;
     font-weight: 900;
     font-family: ui-serif;
     height: max-content;
@@ -41,8 +40,31 @@ p {
 
 #navbar {
     background-color: black;
+    height: 60px;
 }
 
 button {
     color: #f08804;
+    width: 70px;
+    height: 25px;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+#profile {
+    color: #f08804;
+}
+
+.picture h2 {
+    text-align: center;
 }
