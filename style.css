@@ -18,9 +18,11 @@ h1 {
 }
 
 .picture img {
+    padding-top: 74px;
+    padding-left: 10px;
     height: 170px;
     width: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 h2 {
@@ -83,10 +85,10 @@ a {
 
 /* home_page-footer part --starts */
 
-.footer {
+/* .footer {
     position: fixed;
     bottom: 0;
-}
+} */
 
 .footer a {
     font-size: 50px;
@@ -99,15 +101,42 @@ a {
 
 /* ---------------------------------------------------- */
 /* projects_page-style */
-.navbar1-proj {
+/* .navbar1-proj {
     margin: 0%;
     padding: 0%;
     height: 45px;
     background-color: hsl(207, 78%, 13%);
+    width: 100%;
+} */
+
+.nav-menu-proj {
+    background-color: hsl(207, 78%, 13%);
+    display: flex;
+    justify-content: space-evenly;
+
+    /* height: 50px;
+    
+     */
+
 }
 
-.nav-pic img {
+.nav-menu-proj li {
+    display: inline;
+    /* 
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: hsl(0, 64%, 40%); */
+
+}
+
+.nav-menu-proj li input {
+    width: 20%;
+
+}
+
+/* .nav-pic img {
     height: 40px;
     width: 140px;
     margin-left: 20px;
-}
+} */
