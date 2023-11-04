@@ -1,142 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    position: absolute;
-
-}
-
-h1 {
-    color: black;
-    text-align: center;
-    font-weight: 900;
-    font-family: ui-serif;
-    height: max-content;
-
-}
-
-.picture img {
-    padding-top: 74px;
-    padding-left: 10px;
-    height: 170px;
-    width: 200px;
-    /* border-radius: 50%; */
-}
-
-h2 {
-    font-family: 'Segoe UI';
-}
-
-p {
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 40px;
-}
-
-/* navbar section  --starts*/
-#portfolio {
-    height: 100px;
-    font-size: 60px;
-    padding-top: 15px;
-    font-style: italic;
-}
-
-#navbar {
-    background-color: #03034e;
-    position: fixed;
-    height: 60px;
-}
-
-button {
-    color: #f08804;
-    width: 70px;
-    height: 25px;
-    margin-top: 20px;
-}
-
-input {
-    width: 150px;
-    height: 25px;
-    text-align: center;
-}
-
-a {
-    color: aliceblue;
-    margin-right: 200px;
-    font-size: 25px;
-    text-decoration: none;
-}
-
-/*  navbar section --end*/
-
-#profile {
-    color: #f08804;
-    display: inline-block;
-}
-
-.picture h2 {
-    text-align: center;
-    margin-top: 0%;
-}
-
-
-
-/* home_page-footer part --starts */
-
-/* .footer {
-    position: fixed;
-    bottom: 0;
-} */
-
-.footer a {
-    font-size: 50px;
-    color: #594F3B;
-    font-style: italic;
-    margin-left: 30px;
-
-
-}
-
-/* ---------------------------------------------------- */
-/* projects_page-style */
-/* .navbar1-proj {
     margin: 0%;
     padding: 0%;
-    height: 45px;
-    background-color: hsl(207, 78%, 13%);
-    width: 100%;
-} */
+    font-family: arial;
+    border: border-box;
+}
 
-.nav-menu-proj {
-    background-color: hsl(207, 78%, 13%);
+.navbar {
+    height: 65px;
+    background-color: #232f3e;
     display: flex;
-    justify-content: space-evenly;
-
-    /* height: 50px;
-    
-     */
 
 }
 
-.nav-menu-proj li {
-    display: inline;
-    /* 
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-    background-color: hsl(0, 64%, 40%); */
-
+.nav-logo {
+    height: 50px;
+    width: 100px;
 }
 
-.nav-menu-proj li input {
-    width: 20%;
-
+.logo {
+    background-image: url("amazon-logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
 }
 
-/* .nav-pic img {
-    height: 40px;
-    width: 140px;
-    margin-left: 20px;
-} */
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* **box-2** */
+
+.add-first {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
