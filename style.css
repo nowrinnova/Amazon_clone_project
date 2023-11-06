@@ -144,10 +144,20 @@
 
 /* box5 */
 .nav-cart {
+    color: #fff;
     height: 50px;
     width: 80px;
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-cart i {
+    font-size: 1.5rem;
+    color: #d6d6d6;
+}
+
+.nav-cart p {
+    font-weight: 600;
+
 }
