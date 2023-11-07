@@ -198,8 +198,6 @@
     width: 100%;
     display: inline;
     margin-top: 10px;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 
@@ -217,4 +215,11 @@
 .nav2-last {
     width: 18px;
     height: 40px;
+}
+
+/* Hero-SECTION */
+.hero-section {
+    background-image: url("amazon.jpg");
+    height: 250px;
+    background-size: cover;
 }
