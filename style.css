@@ -264,7 +264,7 @@
 
 /* **footer** */
 .footer-panel {
-    height: 1000px;
+    height: 460px;
     background-color: #182433;
 }
 
@@ -298,8 +298,28 @@
     align-items: center;
     margin: 10px;
     font-size: 0.8rem;
+    margin-top: 50px;
 }
 
 .panel3-content1 i {
     margin-right: 5px;
+}
+
+.footer-panel2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: #dddd;
+    font-size: .85rem;
+    margin-bottom: 50px;
+}
+
+.panel-list {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-panel2 li {
+    line-height: 35px;
+    list-style: none;
 }
